@@ -75,15 +75,11 @@ button:hover {
     filter: brightness(0) saturate(100%) invert(90%) sepia(52%) saturate(5050%) hue-rotate(354deg) brightness(104%) contrast(107%);
 }
 
-.menu-icon-inactive {
-    /* display: none; */
-}
-
 nav {
      display: none;
      position: fixed;
-     right: 45px;
-     top: 2px;
+     right: 5px;
+     top: 35px;
 }
 
 .toggle-nav {
@@ -103,7 +99,7 @@ li {
 }
 
 ul > li > a {
-    color: white;
+    color: yellow;
     font-weight: 700;
     text-decoration: none;
     position: relative;
@@ -201,6 +197,11 @@ desktop styles
 @media only screen and (min-width: 600px) {
     header {
         grid-template-columns: 1fr 2fr;
+    }
+    
+    nav {
+        right: 45px;
+        top: 2px;
     }
     
     nav > ul {
